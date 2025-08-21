@@ -16,13 +16,13 @@
         "hello-world",
         "test"
     ],
-    "author": "Test Developer",
+    "author": "GG",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/test/n8n-nodes-hello-world.git"
+        "url": "https://github.com/GAVRILOVGLEB/n8n-nodes-hello-world.git"
     },
-    "homepage": "https://github.com/test/n8n-nodes-hello-world#readme",
+    "homepage": "https://github.com/GAVRILOVGLEB/n8n-nodes-hello-world#readme",
     "dependencies": {
         "n8n-workflow": "^1.97.0"
     },
