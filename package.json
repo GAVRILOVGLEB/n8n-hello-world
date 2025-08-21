@@ -1,0 +1,44 @@
+{
+    "name": "n8n-nodes-hello-world",
+    "version": "1.0.0",
+    "description": "Simple Hello World node for n8n testing",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "pack": "npm pack"
+    },
+    "keywords": [
+        "n8n-community-node-package",
+        "n8n",
+        "n8n-nodes",
+        "hello-world",
+        "test"
+    ],
+    "author": "Test Developer",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/test/n8n-nodes-hello-world.git"
+    },
+    "homepage": "https://github.com/test/n8n-nodes-hello-world#readme",
+    "dependencies": {
+        "n8n-workflow": "^1.97.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    },
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "credentials": [],
+        "nodes": [
+            "dist/nodes/HelloWorld.node.js"
+        ]
+    },
+    "files": [
+        "dist/**/*",
+        "package.json"
+    ]
+}
